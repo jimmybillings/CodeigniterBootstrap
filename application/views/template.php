@@ -13,6 +13,8 @@
   <link href="<?=base_url()?>assets/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
   <link href="<?=base_url()?>assets/css/style.css" rel="stylesheet" media="screen">
   <script src="<?=base_url()?>assets/scripts/modernizr-2.5.3.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="<?=base_url()?>assets/scripts/jquery-1.7.2.min.js"><\/script>')</script>
 </head>
 <body>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a><![endif]-->
@@ -26,8 +28,6 @@
 	 <?php $this->load->view('includes/footer_view'); ?>
   </footer>
   <!-- JavaScript  -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="<?=base_url()?>assets/scripts/jquery-1.7.2.min.js"><\/script>')</script>
   <script src="<?=base_url()?>assets/scripts/bootstrap.min.js"></script>
   <script src="<?=base_url()?>assets/scripts/script.js"></script>
   <!-- end scripts -->

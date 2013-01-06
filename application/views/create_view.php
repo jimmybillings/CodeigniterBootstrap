@@ -68,7 +68,8 @@
 			echo form_input($data);
 
 			echo '<button class="btn btn-large btn-primary" type="submit">Create</button>';
-			echo '<a href="'.base_url().'user">Login</a>';
+			echo '<a href="'.base_url().'user" class="btn fr">Login</a>';
+			
 
 		echo '</div>';
 	echo '</div>';

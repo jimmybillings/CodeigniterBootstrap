@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://framework.dev:8080';
+$config['base_url']	= 'http://sandbox.dev:8080/Codeigniter-Starter';
 
 /*
 |--------------------------------------------------------------------------
